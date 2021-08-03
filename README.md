@@ -120,13 +120,13 @@ function maximumProfit(inventory, order) {
 }
 
 // maximumProfit con [3, 5] y order 6
-const t2 = {
+{
   "sup-0": { inventory: 3, boxes: [0, 0, 3, 2, 1] },
   "sup-1": { inventory: 5, boxes: [5, 4, 3, 2, 1] },
 }
 
 // maximumProfit con [2, 5] y order 4
-const t3 = {
+{
   "sup-0": { inventory: 2, boxes: [0, 0, 0, 2, 1] },
   "sup-1": { inventory: 5, boxes: [5, 4, 3, 2, 1] },
 }
@@ -138,13 +138,11 @@ const t3 = {
 ## Test
 - npm test
 
----
-
 ## Screenshots de problema original
 
 - En los diagramas que aparecen en los screenshots ayuda a entender que la suma de los boxes verdes y rojos son el inventario disponiblede cada proveedor.
 - El comercializador de productos empieza a adquirir (boxes verdes) desde izquierda a derecha la mayor cantidad (de cada proveedor) de items que le den mayor ganancia.
-- Termina de comprar cuando la cantidad de boxes verdes es la que necesitaba
+- Termina de comprar cuando la cantidad de boxes verdes es la que necesitaba.
 
 ![Screenshot_2021-08-02_16-17-57.png](screenshots/Screenshot_2021-08-02_16-17-57.png)
 
